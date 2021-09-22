@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.row{
+    margin: 1rem;
+
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+article{
+    border: 3px solid palegreen;
+}
+
+.col-1{
+    box-sizing: border-box;
+    flex-basis: 20%;
+    margin: 0 4%;
+    padding: 2rem 1rem;
+}
+
+.col-2{
+    box-sizing: border-box;
+    flex-basis: 48%;
+    margin: 0 4%;
+   /* padding: 2rem 1rem; */
+}
+
+.col-3{
+    box-sizing: border-box;
+    flex-basis: 76%;
+    margin: 0 4%;
+   /* padding: 2rem 1rem; */
+
+}
+
+.col-4{
+    box-sizing: border-box;
+    flex-basis: 92%;
+    margin: 0 4%;
+   /* padding: 2rem 1rem; */
+}
+
+
